@@ -1,0 +1,188 @@
+html {
+  font-size: 14px;
+  font-family: "Segoe UI";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: rgba(170, 200, 220, 1);
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  margin: 4em 3em;
+  max-width: 440px;
+  width: 80%;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  background: #0a0e31;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.45), 0 4px 8px rgba(0, 0, 0, 0.35),
+    0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container h2 {
+  font-size: 1.75rem;
+  color: #fff;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.outerBox {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+}
+
+.boxTitle {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 600;
+  font-size: 0.86rem;
+  padding-bottom: 0.5em;
+}
+
+.boxTitle span {
+  color: #fff;
+}
+
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1em;
+}
+
+.slide div {
+  font-weight: 600;
+}
+
+#slider {
+  flex: 1;
+  -webkit-appearance: none;
+  height: 0.2em;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.314);
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.settings {
+  display: flex;
+  flex-direction: row;
+}
+
+.settings label {
+  flex: 1;
+  text-align: left;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #3387f5;
+  cursor: pointer;
+}
+
+.toggle-rect-bw input[type="checkbox"] {
+  display: none;
+}
+.toggle-rect-bw input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  width: 3em;
+  height: 1.6em;
+  background: rgba(255, 255, 255, 0.314);
+  border-radius: 0.2em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.toggle-rect-bw input[type="checkbox"] + label:before {
+  content: "";
+  display: block;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 0.2em;
+  background: #f7f2f2;
+  position: absolute;
+  left: 0.2em;
+  top: 0.2em;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.toggle-rect-bw input[type="checkbox"]:checked + label {
+  background: #3387f5;
+}
+.toggle-rect-bw input[type="checkbox"]:checked + label:before {
+  left: 1.6em;
+}
+
+.passwordDisplay {
+  font-size: 1.6rem;
+  padding: 0.5em 0;
+  overflow-wrap: break-word;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading h2 {
+  flex: 1;
+}
+
+.heading button {
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.heading button:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.heading button:active {
+  color: rgba(255, 255, 255, 1);
+}
+
+#clickToCopy {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.outerBox .copyActive {
+  text-align: left;
+}
+
+.outerBox .copyInactive {
+  text-align: right;
+}
+
+.outerBox:active #clickToCopy {
+  color: rgba(255, 255, 255, 1);
+}
