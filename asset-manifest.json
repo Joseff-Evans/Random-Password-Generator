@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.155976e8.css",
-    "main.js": "/static/js/main.1afd6289.js",
-    "static/js/787.7da6eb2c.chunk.js": "/static/js/787.7da6eb2c.chunk.js",
-    "index.html": "/index.html",
-    "main.155976e8.css.map": "/static/css/main.155976e8.css.map",
-    "main.1afd6289.js.map": "/static/js/main.1afd6289.js.map",
-    "787.7da6eb2c.chunk.js.map": "/static/js/787.7da6eb2c.chunk.js.map"
+    "main.css": "/Random-Password-Generator/static/css/main.155976e8.css",
+    "main.js": "/Random-Password-Generator/static/js/main.a2eeed88.js",
+    "static/js/787.7da6eb2c.chunk.js": "/Random-Password-Generator/static/js/787.7da6eb2c.chunk.js",
+    "index.html": "/Random-Password-Generator/index.html",
+    "main.155976e8.css.map": "/Random-Password-Generator/static/css/main.155976e8.css.map",
+    "main.a2eeed88.js.map": "/Random-Password-Generator/static/js/main.a2eeed88.js.map",
+    "787.7da6eb2c.chunk.js.map": "/Random-Password-Generator/static/js/787.7da6eb2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.155976e8.css",
-    "static/js/main.1afd6289.js"
+    "static/js/main.a2eeed88.js"
   ]
 }
